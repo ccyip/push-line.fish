@@ -1,4 +1,6 @@
 function pop_line -d "Pop the previous pushed buffer and load it into current buffer"
-    commandline "$__push_line_stack[1]"
+    set -l __line (string split -m 1 ":" $__push_line_stack[1])
     set -e __push_line_stack[1]
+    commandline "$__line[2]"
+    commandline -C $__line[1]
 end

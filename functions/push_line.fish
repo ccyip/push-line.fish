@@ -8,6 +8,6 @@ function push_line -d "Push current buffer onto the buffer stack and clear curre
         end
     end
 
-    set -g __push_line_stack (commandline) $__push_line_stack
+    set -g __push_line_stack (commandline -C):(commandline) $__push_line_stack
     commandline ""
 end
