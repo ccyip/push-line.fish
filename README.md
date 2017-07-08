@@ -1,6 +1,6 @@
 # push-line
 
-Zsh-like push-line feature for fish shell.
+Zsh-like push-line feature for [fish-shell].
 
 Here is the description from zsh manual:
 
@@ -13,7 +13,7 @@ into the editing buffer.
 
 ## Install
 
-With [fishman]
+With [fisherman]
 
 ```
 fisher jonathye/push-line.fish
@@ -32,3 +32,6 @@ A simple use case:
 3. Type and run another command.
 4. My previous command is automatically popped off the stack and loaded to current buffer.
 5. Continue editing this command and run it.
+
+[fish-shell]: https://github.com/fish-shell/fish-shell
+[fisherman]: https://github.com/fisherman/fisherman
