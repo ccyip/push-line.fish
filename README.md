@@ -16,7 +16,7 @@ into the editing buffer.
 With [fisherman]
 
 ```
-fisher jonathye/push-line.fish
+fisher add jonathye/push-line.fish
 ```
 
 ## Usage
