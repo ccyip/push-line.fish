@@ -35,3 +35,8 @@ A simple use case:
 
 [fish-shell]: https://github.com/fish-shell/fish-shell
 [fisherman]: https://github.com/fisherman/fisherman
+
+## Warning
+
+This plugin does not work with fish 3.4.x, due to
+https://github.com/fish-shell/fish-shell/issues/8807.
